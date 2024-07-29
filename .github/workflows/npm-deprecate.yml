@@ -13,6 +13,6 @@ jobs:
         with:
           node-version: '20.x'
           registry-url: https://registry.npmjs.org/
-      - run: npm deprecate @batpb/genart-palettes@0.3.x "version 0.3.x is no longer supported"
+      - run: npm deprecate @batpb/genart-palettes "This package is no longer supported. Functionality can be found in @batpb/genart"
         env:
           NODE_AUTH_TOKEN: ${{secrets.npm_token}}
