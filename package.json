@@ -55,7 +55,7 @@
   "dependencies": {
     "@batpb/genart-base": "^0.4.1",
     "@types/p5": "^1.7.6",
-    "p5": "^1.9.1"
+    "p5": "^1.9.4"
   },
   "devDependencies": {
     "@rollup/plugin-eslint": "^9.0.5",
