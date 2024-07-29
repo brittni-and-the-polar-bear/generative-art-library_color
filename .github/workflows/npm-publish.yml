@@ -16,7 +16,7 @@ jobs:
         with:
           node-version: '20.x'
       - run: npm ci
-      - run: npm run build:source --if-present
+      - run: npm run build:source
       - run: npm test
 
   publish-npm:

@@ -30,6 +30,7 @@ export default {
         sourcemap: true,
         preserveModules: false,
         globals: {
+            p5: 'p5',
             '@batpb/genart-base': 'genartBase'
         }
     },
